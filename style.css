@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+body {
+  width: 1224px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  background-color: violet;
+  position: fixed;
+  top: 0;
+  width: 1224px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+.titulo {
+  width: 25%;
+  font-size: 1.6rem;
+  margin-left: 50px;
+}
+.botones {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+  width: 75%;
+}
+
+.boton {
+  font-size: 1.2rem;
+  margin: 0 20px 0 20px;
+}
+
+.main-content {
+  margin-top: 69px;
+  width: 100%;
+}
+.horizontal-bar {
+  height: 33px;
+  width: 100%;
+  background-color: yellow;
+}
+.image-slogan {
+  background-image: url("/images/avion.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 659px;
+ 
+}
+
+.slogan {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 400px;
+}
+#the-slogan {
+  width: 35%;
+  text-align: center;
+  font-size: 2.4rem;  
+  color: white;
+
+}
