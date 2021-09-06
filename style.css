@@ -4,9 +4,14 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("/fonts/HelveticaLight.ttf");
+}
+
 html {
   font-size: 62.5%;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaLight", sans-serif;
   font-weight: 300;
 }
 a {
@@ -16,15 +21,16 @@ a {
 body {
   width: 1224px;
   margin: auto;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .navbar {
-  background-color: violet;
+  background-color: white;
   position: fixed;
   top: 0;
-  width: 1224px;
+  width: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,8 +38,8 @@ body {
 }
 .titulo {
   width: 25%;
-  font-size: 1.6rem;
-  margin-left: 50px;
+  font-size: 2.0rem;
+  margin-left: 20px;
 }
 .botones {
   display: flex;
@@ -44,7 +50,7 @@ body {
 }
 
 .boton {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin: 0 20px 0 20px;
 }
 
@@ -53,12 +59,15 @@ body {
   width: 100%;
 }
 .horizontal-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   height: 33px;
   width: 100%;
-  background-color: yellow;
+  background-color: #f2a20b;
 }
 .image-slogan {
-  background-image: url("/images/avion.jpeg");
+  background-image: url('./images/avion.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -74,9 +83,187 @@ body {
   height: 400px;
 }
 #the-slogan {
-  width: 35%;
+  width: 45%;
   text-align: center;
-  font-size: 2.4rem;  
+  font-size: 2.8rem;  
   color: white;
+  
 
+}
+
+.learn-more{
+  margin-top: 40px;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+#learn-more-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 204px;
+  padding: 0 50px 0 50px;
+  height: 70px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+text-align: center;
+  font-size: 2.0rem;
+  color: white;
+}
+
+.social-media-facebook{
+  background-image: url('./images/facebook.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 13px;
+  width: 40px;
+  height:100%;
+}
+.social-media-twitter{
+  background-image: url('./images/twitter.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 13px;
+  width: 40px;
+  height:100%;
+}
+.social-media-instagram{
+  background-image: url('./images/instagram.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 13px;
+  width: 40px;
+  height:100%;
+}
+.social-media-whatsapp{
+  background-image: url('./images/whatsapp.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 13px;
+  width: 40px;
+  height:100%;
+}
+.social-media-messenger{
+  background-image: url('./images/messenger.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 13px;
+  width: 40px;
+  height:100%;
+}
+
+.about-us{
+  height: 480px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.info-title{
+  height: 144px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size:3.2rem;
+}
+.info-text{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 3.2rem;
+  margin: 70px 150px 0 150px;
+  text-align: center;
+}
+
+.other-block{
+  height: 375px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.the-form{
+background-color: #4b4b4b;
+flex:1;
+height: 100%;
+}
+.oferta{
+  width: 508px;
+  height: 100%;
+  background-image: url('./images/cielo.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.the-form{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.innerForm{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.flabel{
+  font-size: 2.2rem;
+  color: white;
+  margin-top: 5px;
+  margin-bottom:3px;
+}
+
+.finput{
+  height: 35px;
+  font-size: 2.2rem;
+}
+.send-container{
+  display: flex;
+  justify-content: center;
+}
+.send-form{
+  margin-top: 30px;
+  font-size: 2.2rem;
+  width: 50%;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-style: none;
+}
+
+#ganaVuelo{
+  color: white;
+  margin-top: 50px;
+  font-size: 5.0rem;
+  margin-bottom: 40px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#gratis{
+  color: white;
+  margin-top: 20px;
+  font-size: 9.0rem;
+  margin-bottom: 5px;  
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#info{
+  color: white;
+  text-align: justify;
+  width: 75%;
+  font-size: 2.0rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }

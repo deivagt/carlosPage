@@ -11,9 +11,9 @@
     <nav class="navbar">
         <div class= "titulo">AERIAL CIRCUS</div>
         <div class="botones">
-            <a href="#"><div class="boton">HOME</div></a>
-            <a href="#"><div class="boton">ABOUT US</div></a>
-            <a href="#"><div class="boton">CONTACT US</div></a>            
+            <a href="#top"><div class="boton">INICIO</div></a>
+            <a href="#info-title"><div class="boton">NOSOTROS</div></a>
+            <a href="#"><div class="boton">CONTACTANOS</div></a>            
         </div>
     </nav>
     <main class="main-content">
@@ -22,13 +22,54 @@
         </div>
         <div class="image-slogan">
             <div class= "slogan">
-               <span id="the-slogan"> The best air experience, the most comfortable and the most economical</span>               
+               <span id="the-slogan"> La mejor experiencia de vuelo, la más confortable, la más económica</span>               
             </div>
             <div class="learn-more">
-                <span>Learn More</span>
+                <a id="learn-more-button" href="#">
+                    Más Información
+                </a>
+            </div>
+
+        </div>
+        <div class="horizontal-bar">
+            <a href="#" class="social-media-facebook"></a>            
+            <a href="#" class="social-media-instagram"></a>
+            <a href="#" class="social-media-twitter"></a>
+            <a href="#"class="social-media-whatsapp"></a>
+            <a href="#"class="social-media-messenger"></a>            
+        </div>
+
+        <div class="about-us">
+            <div class="info-title" id="info-title">
+                <span id="the-info-title">Información</span>
+            </div>
+            <div class="info-text">
+                <span id="the-info-text">Somos una empresa 100% guatemalteca que se dediaca a satisfacer las necesidades de transporte aéreo de nuestros clientes, prestando servicios de aviación comercial y privada a nivel nacional e internacional.</span>
             </div>
         </div>
-        <div class="horizontal-bar"></div>
+
+        <div class="other-block">
+            <div class="the-form">
+                <div class="innerForm">
+                    <label for="fname" class="flabel">Nombre Completo</label>
+                    <input type="text" name="fname" id="fname" class="finput">
+                    <label for="fphone" class="flabel">Teléfono</label>
+                    <input type="number" name="fphone" id="fphone" class="finput">
+                    <label for="fmail" class="flabel">Correo Electronico</label>
+                    <input type="email" name="fmail" id="fmail" class="finput">
+                    <div class="send-container">
+                        <button class="send-form">ENVIAR</button>
+                    </div>
+                </div>
+            </div>
+            <div class="oferta">
+                <div id="ganaVuelo">Gana 1 vuelo</div>
+                <div id="gratis">Gratis</div>
+                <div id="info">Solo tienes que llenar tus datos en el formulario
+                    y te llegará tu vuelo a tu correo
+                </div>
+            </div>
+        </div>
         
     </main>
 </body>
